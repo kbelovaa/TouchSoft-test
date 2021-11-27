@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Counters</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="buttons">
+			<button class="add-counter btn" onclick="addCounter()">
+				Add Counter
+			</button>
+			<button class="reset btn" onclick="reset()">
+				Reset
+			</button>
+		</div>
+		<div id="counters"></div>
+		<div class="summary">
+			<div class="summary__number">
+				<span class="caption">Number of counters</span>
+				<span id="counters-number" class="number-field">0</span>
+			</div>
+			<div class="summary__sum">
+				<span class="caption">Sum of counter values</span>
+				<span id="counters-sum" class="number-field">0</span>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
